@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import CVFile from './KarolRogalskiCV.pdf';
 
 const About = () => {
   return (
@@ -35,7 +36,11 @@ const About = () => {
           me by e-mail or directly on LinkedIn.
         </p>
 
-        <button className="btn">My CV</button>
+        <button className="btn">
+          <a href={CVFile} download="Karol Rogalski CV" rel="noreferrer">
+            My CV
+          </a>
+        </button>
 
         <p>I will be happy to discuss the possibilities or help you build your website or app.</p>
       </div>
