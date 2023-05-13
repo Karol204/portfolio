@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import CVFile from './KarolRogalskiCV.pdf';
+import CVFile from './Karol Rogalski_Dev.pdf';
 
 const About = () => {
   return (
